@@ -1,51 +1,41 @@
-var fruits = ["apple", "banana", "cherry"];
-
-// 1A: Write a function called outputFruitOld that consoles every fruit in a fruit array.
-
-// function outputFruitOld (array) {
-// 	for (i=0; i<array.length; i++) {
-// 		console.log(array[i]);
-// 	}
-// }
-
-// outputFruitOld(fruits);
+// Using one single line of JavaScript code, complete the following tasks 
+// on the array of integers below.
 
 
-
-// // 1B: Rewrite using forEach array method.
-
-// outputFruitOld (element, index); {
-// 	console.log(element);
-// 	console.log("array[" + index + "] " + element);
-// }
-
-// fruits.forEach(outputFruits);
-
-// fruits.forEach(function(fruit) {
-// 	console.log(element);
-// })
+var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
 
 
+// 1.  Sort the numbers in descending order (10, 9, 8, 7, etc).
+
+var chainingResult = integers.sort(function(a,b){return b-a});
+
+console.log(chainingResult);
 
 
+// 2.  Remove any integers greater than 19.
 
-// 2A: Write a function called backwardFruitsOld that reverses the letters 
-//in each word in the fruits array.
+var chainingResult = integers.sort(function(a,b){return b-a}).filter(function(num){return num < 19});
 
-// 2B: Rewrite using map array method
-
-function backwardFruitsOld(array) {
-	var backwardsFruit = [];
-	for (i=0; i<array.length; i++) {
-		backwardsFruit.push(array[i].split("").reverse().join(""));
-	}
-}
-
-backwardFruitsOld(fruits);
+console.log(chainingResult);
 
 
+// 3.  Multiply each remaining number by 1.5 and then subtract 1.
 
-// 3A: Write a function called 
+var chainingResult = integers.sort(function(a,b){return b-a}).filter(function(num){
+	return num < 19}).map(function(num){return (num*1.5) - 1});
+
+console.log(chainingResult);
+
+
+// 4.  Then output (either in the DOM or the console) the sum of all the resulting numbers.
+
+var chainingResult = integers.sort(function(a,b){return b-a})
+	.filter(function(num){return num < 19})
+	.map(function(num){return (num*1.5) - 1})
+	.reduce(function(prev, curr){return prev + curr});
+
+console.log(chainingResult);
+
 
 
 
