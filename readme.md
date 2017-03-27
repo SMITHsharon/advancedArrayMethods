@@ -5,10 +5,10 @@ This is a simple class application created to demonstrate and discuss `JavaScrip
 
 
 #### Class Demo Screen Grab 1
-![Class Demo Screen Grab 1](...)
+![Class Demo Screen Grab 1](https://raw.githubusercontent.com/SMITHsharon/advancedArrayMethods/screens/screens/Advanced%20Array%20Methods%20on%20Launch.png)
 
 #### Class Demo Screen Grab 2
-![Class Demo Screen Grab 2](...)
+![Class Demo Screen Grab 2](https://raw.githubusercontent.com/SMITHsharon/advancedArrayMethods/screens/screens/Advanced%20Array%20Methods%202.png)
 
 
 ### Project Specs
