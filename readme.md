@@ -31,7 +31,6 @@ The various `JavaScript` files underwent many changes throughout the class discu
 ```
 git clone https://github.com/SMITHsharon/advancedArrayMethods.git
 cd advancedArrayMethods
-npm install http-server -g
 http-server -p 8080
 ```
 
